@@ -1,0 +1,120 @@
+.mobile-menu{
+    @include mq(desktop) {
+        display: none;}
+
+    @include mq(tablet-only) {
+        display: none;}
+
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 48px 40px;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: #fff;
+    overflow-y: scroll;
+
+}
+
+.mobile-nav__item {
+    &:first-child {
+        margin-bottom: 36px;}
+    
+    &:nth-child(2) {
+        margin-bottom: 32px;}
+    }
+
+.mobile-nav__link {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    @include fonts (500, 40px, 1.17, 0.02em);
+
+    color: var(--primary-title-color);
+    @include transition (color);  
+}
+
+.mobile-nav__acent {
+    &:only-child {color: var(--primary-button-color);}
+}
+
+.mobile-contacts {
+    margin-top: auto;
+    margin-bottom: 64px;
+}
+
+.mobile-contacts__item {
+    &:first-child {
+        margin-bottom: 32px;
+    }
+}
+
+.mobile-contacts__phone {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    @include fonts (500, 34px, 1.17, 0.02em);
+
+    color: var(--primary-button-color);
+}
+
+.mobile-contacts__mail {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    @include fonts (500, 24px, 1.17, 0.02em);
+
+    color: var(--primary-text-color);
+}
+
+.mobile-socials {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mobile-socials__item {
+    margin-top: 10px;
+    padding: 0 10px;
+    border-right: 1px solid rgba(33, 33, 33, 0.2);
+
+    &:nth-last-child(1) {
+        //padding-left: 0;
+        border-right: none;
+    }
+}
+
+.mobile-socials__link {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    @include fonts (500, 18px, 1.22, 0.02em); 
+
+    color: var(--primary-button-color);
+}
+
+.mobile-button__close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+
+    border: none;
+    color: var(--primary-title-color);
+    background-color: #fff;
+    @include transition (color);
+
+    fill: currentColor;
+
+        &:hover,
+        &:focus {
+            color: var(--primary-button-color);}
+}
