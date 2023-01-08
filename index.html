@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap"
       rel="stylesheet"
     />
 
@@ -21,45 +21,50 @@
 
     <!-- Custom styles -->
     <link rel="stylesheet" href="./css/main.min.css" />
-    <title>Module 08</title>
+    <title>Resume Suhak</title>
   </head>
   <body>
-    <div>
-      <section>
-        <h1>Mykhailo Suhak</h1>
-        <h2>Frontend developer (HTML5, CSS3, JavaScript)</h2>
-        <p>Kyiv City, Ukraine</p>
-      </section>
-      <section>
-        <h2>About Me</h2>
-        <p>
-          The word "résumé" comes from the French word résumer meaning 'to summarize'. Leonardo da
-          Vinci is credited with the first résumé, though his "résumé" takes the form of a letter
-          written about 1481–1482 to a potential employer, Ludovico Sforza.
-        </p>
-      </section>
-      <!-- Experience -->
-      <section>
-        <h2>Experience</h2>
-        <ul>
-          <li>
-            <p>July 2016 - now</p>
-            <h3>Civil Engineer</h3>
-            <p>TTRADE Ltd</p>
-            <p>
-              The word "résumé" comes from the French word résumer meaning 'to summarize'. Leonardo
-              da Vinci is credited with the first résumé, though his "résumé" takes the form of a
-              letter written about 1481–1482 to a potential employer, Ludovico Sforza.
-            </p>
-          </li>
-        </ul>
-      </section>
+    <div class="main">
+      <div class="main__content">
+        <section>
+          <h1 class="hero__title">Mykhailo Suhak</h1>
+          <h2 class="section__title">Frontend developer (HTML5, CSS3, JavaScript)</h2>
+          <p class="hero__text">Kyiv City, Ukraine</p>
+        </section>
+        <section>
+          <h2 class="section__title">About Me</h2>
+          <p>
+            The word "résumé" comes from the French word résumer meaning 'to summarize'. Leonardo da
+            Vinci is credited with the first résumé, though his "résumé" takes the form of a letter
+            written about 1481–1482 to a potential employer, Ludovico Sforza.
+          </p>
+        </section>
+        <!-- Experience -->
+        <section>
+          <h2 class="section__title">Experience</h2>
+          <ul>
+            <li>
+              <p>July 2016 - now</p>
+              <h3 class="section__subtitle">Civil Engineer</h3>
+              <p>TTRADE Ltd</p>
+              <p>
+                The word "résumé" comes from the French word résumer meaning 'to summarize'.
+                Leonardo da Vinci is credited with the first résumé, though his "résumé" takes the
+                form of a letter written about 1481–1482 to a potential employer, Ludovico Sforza.
+              </p>
+            </li>
+          </ul>
+        </section>
+      </div>
       <!-- Aside -->
-      <aside>
-        <img />
+      <aside class="sidebar">
+        <div class="image__box">
+          <img />
+        </div>
+
         <!-- Contact -->
         <div>
-          <h3>Contact</h3>
+          <h2 class="section__title">Contact</h2>
           <ul>
             <li>
               <a href="tel:+380933270313">
@@ -89,7 +94,7 @@
         </div>
         <!-- Skills -->
         <div>
-          <h3>Skills</h3>
+          <h2 class="section__title">Skills</h2>
           <ul>
             <li>
               <span>HTML5</span>
@@ -107,29 +112,37 @@
         </div>
         <!-- Education -->
         <div>
-          <h3>Education</h3>
+          <h2 class="section__title">Education</h2>
           <ul>
             <li>
               <span>2022 - 2023</span>
-              <h4>Full Stack Developer</h4>
+              <h3 class="section__subtitle">Full Stack Developer</h3>
               <p>GoIT - IT School</p>
             </li>
             <li>
               <span>2005 - 2012</span>
-              <h4>Civil Engineer</h4>
+              <h3 class="section__subtitle">Civil Engineer</h3>
               <p>Kyiv National University of Construction and Architecture</p>
             </li>
           </ul>
         </div>
         <!-- Languages -->
         <div>
-          <h3>Languages</h3>
+          <h2 class="section__title">Languages</h2>
           <ul>
-            <li><h4>English - <span>Elementary</span></h4></li>
-            <li><h4>Ukrainian - <span>Proficiency</span></h4></li>
-            <li><h4>Russian - <span>Proficiency</span></h4></li>
+            <li>
+              <h3>English</h3>
+              <span> - Elementary</span>
+            </li>
+            <li>
+              <h3>Ukrainian</h3>
+              <span> - Proficiency</span>
+            </li>
+            <li>
+              <h3>Russian</h3>
+              <span> - Proficiency</span>
+            </li>
           </ul>
-          
         </div>
       </aside>
     </div>
