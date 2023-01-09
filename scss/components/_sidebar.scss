@@ -1,3 +1,11 @@
 .sidebar {
     padding: 168px 0 209px 168px;
 }
+
+.sidebar__box {
+    padding: 48px 0 48px 32px;
+    border-bottom: solid 1px #CCCCCC;
+    &:last-child {
+        border: none;
+    }
+}

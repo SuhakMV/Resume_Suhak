@@ -26,12 +26,13 @@
   <body>
     <div class="main">
       <div class="main__content">
-        <section>
+        <!-- Hero -->
+        <section class="hero">
           <h1 class="hero__title">Mykhailo Suhak</h1>
-          <h2 class="section__title">Frontend developer (HTML5, CSS3, JavaScript)</h2>
+          <h2 class="hero__subtitle">Frontend developer (HTML5, CSS3, JavaScript)</h2>
           <p class="hero__text">Kyiv City, Ukraine</p>
         </section>
-        <section>
+        <section class="aboutme">
           <h2 class="section__title">About Me</h2>
           <p>
             The word "résumé" comes from the French word résumer meaning 'to summarize'. Leonardo da
@@ -40,13 +41,13 @@
           </p>
         </section>
         <!-- Experience -->
-        <section>
+        <section class="experience">
           <h2 class="section__title">Experience</h2>
-          <ul>
-            <li>
+          <ul class="experience__list">
+            <li class="experience__item">
               <p>July 2016 - now</p>
               <h3 class="section__subtitle">Civil Engineer</h3>
-              <p>TTRADE Ltd</p>
+              <p class="experience__name">TTRADE Ltd</p>
               <p>
                 The word "résumé" comes from the French word résumer meaning 'to summarize'.
                 Leonardo da Vinci is credited with the first résumé, though his "résumé" takes the
@@ -58,68 +59,70 @@
       </div>
       <!-- Aside -->
       <aside class="sidebar">
-        <div class="image__box">
-          <img />
+        <!-- Photo -->
+        <div class="photo">
+          <div class="image__box">
+            <img src="./images/Suhak.png" alt="author photo" />
+          </div>
         </div>
 
         <!-- Contact -->
-        <div>
+        <div class="sidebar__box">
           <h2 class="section__title">Contact</h2>
-          <ul>
-            <li>
-              <a href="tel:+380933270313">
-                <svg></svg>
-                +380 93 327 03 13
-              </a>
+          <ul class="contact__list">
+            <li class="contact__item">
+              <a class="contact__link" href="tel:+380933270313"> +380 93 327 03 13 </a>
             </li>
             <li>
-              <a href="tel:+380666098545">
-                <svg></svg>
-                +380 66 609 85 45
-              </a>
+              <a class="contact__link" href="tel:+380666098545"> +380 66 609 85 45 </a>
             </li>
             <li>
-              <a href="mailto:sugamish@gmail.com">
-                <svg></svg>
-                sugamish@gmail.com
-              </a>
+              <a class="contact__link" href="mailto:sugamish@gmail.com"> sugamish@gmail.com </a>
             </li>
             <li>
-              <a href="https://github.com/SuhakMV">
-                <svg></svg>
-                github.com/SuhakMV
-              </a>
+              <a class="contact__link" href="https://github.com/SuhakMV"> github.com/SuhakMV </a>
             </li>
           </ul>
         </div>
         <!-- Skills -->
-        <div>
+        <div class="sidebar__box">
           <h2 class="section__title">Skills</h2>
-          <ul>
-            <li>
+          <ul class="skills__list">
+            <li class="skills__item">
               <span>HTML5</span>
             </li>
-            <li>
+            <li class="skills__item">
               <span>CCS3</span>
             </li>
-            <li>
+            <li class="skills__item">
               <span>SASS</span>
             </li>
-            <li>
+            <li class="skills__item">
               <span>JavaScript</span>
+            </li>
+            <li class="skills__item">
+              <span>React</span>
+            </li>
+            <li class="skills__item">
+              <span>Node.js</span>
             </li>
           </ul>
         </div>
         <!-- Education -->
-        <div>
+        <div class="sidebar__box">
           <h2 class="section__title">Education</h2>
-          <ul>
-            <li>
+          <ul class="education__list">
+            <li class="education__item">
               <span>2022 - 2023</span>
               <h3 class="section__subtitle">Full Stack Developer</h3>
               <p>GoIT - IT School</p>
             </li>
-            <li>
+            <li class="education__item">
+              <span>2017</span>
+              <h3 class="section__subtitle">Designer siphonic system</h3>
+              <p>VALSIR Acadeny</p>
+            </li>
+            <li class="education__item">
               <span>2005 - 2012</span>
               <h3 class="section__subtitle">Civil Engineer</h3>
               <p>Kyiv National University of Construction and Architecture</p>
@@ -127,20 +130,20 @@
           </ul>
         </div>
         <!-- Languages -->
-        <div>
+        <div class="sidebar__box">
           <h2 class="section__title">Languages</h2>
           <ul>
-            <li>
-              <h3>English</h3>
-              <span> - Elementary</span>
+            <li class="language__item">
+              <h3 class="language__title">English</h3>
+              <span class="language__text">Elementary</span>
             </li>
-            <li>
-              <h3>Ukrainian</h3>
-              <span> - Proficiency</span>
+            <li class="language__item">
+              <h3 class="language__title">Ukrainian</h3>
+              <span class="language__text">Proficiency</span>
             </li>
-            <li>
-              <h3>Russian</h3>
-              <span> - Proficiency</span>
+            <li class="language__item">
+              <h3 class="language__title">Russian</h3>
+              <span class="language__text">Proficiency</span>
             </li>
           </ul>
         </div>

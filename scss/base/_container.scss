@@ -28,6 +28,7 @@
 
 .section__title {
     @include fonts (28px, 1.3, 500);
+    margin-bottom: 32px;
 }
 
 .section__subtitle {

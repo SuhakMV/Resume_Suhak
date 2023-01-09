@@ -1,0 +1,23 @@
+.language__list {
+
+}
+
+.language__item {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 8px;
+    &:last-child {
+        margin: 0;
+    }
+}
+
+.language__title {
+    margin-right: 5px;
+    font-weight: 500;
+}
+
+.language__text {
+    &::before {
+        content: "- ";
+    }
+}

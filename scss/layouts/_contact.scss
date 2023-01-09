@@ -1,0 +1,9 @@
+.contact__link {
+    text-decoration: none;
+    color: var(--primary-text-color);
+    padding: 4px 0 4px 0;
+    &:hover, 
+    &:focus
+        {   font-weight: 500;
+            color: var(--accent-color);}
+}

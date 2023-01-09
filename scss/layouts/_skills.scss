@@ -1,0 +1,10 @@
+.skills__list {
+    list-style-type: disc;
+}
+
+.skills__item {
+    margin-bottom: 8px;
+    &:last-child {
+        margin: 0;
+    }
+}
