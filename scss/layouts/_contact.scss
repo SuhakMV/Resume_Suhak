@@ -1,4 +1,5 @@
 .contact__link {
+    display: flex;
     text-decoration: none;
     color: var(--primary-text-color);
     padding: 4px 0 4px 0;
@@ -7,3 +8,10 @@
         {   font-weight: 500;
             color: var(--accent-color);}
 }
+
+.icon {
+    display: inline-block;
+    stroke: currentColor;
+    fill: currentColor;
+    margin-right: 15px;
+  }

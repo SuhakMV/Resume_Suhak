@@ -156,6 +156,9 @@ img {
   font-size: 20px;
   line-height: 1.6;
   font-weight: 300;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .aboutme {
@@ -183,6 +186,9 @@ img {
 }
 
 .contact__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   text-decoration: none;
   color: var(--primary-text-color);
   padding: 4px 0 4px 0;
@@ -190,6 +196,13 @@ img {
 .contact__link:hover, .contact__link:focus {
   font-weight: 500;
   color: var(--accent-color);
+}
+
+.icon {
+  display: inline-block;
+  stroke: currentColor;
+  fill: currentColor;
+  margin-right: 15px;
 }
 
 .skills__list {

@@ -15,4 +15,5 @@
 
 .hero__text {
     @include fonts(20px, 1.6, 300);
+    display: flex;
 }
